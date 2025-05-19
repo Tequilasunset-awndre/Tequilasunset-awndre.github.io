@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>mer🌼</title>
+  
+  
+  <link href="https://mer.life/atom.xml" rel="self"/>
+  
+  <link href="https://mer.life/"/>
+  <updated>2025-05-19T16:00:00.000Z</updated>
+  <id>https://mer.life/</id>
+  
+  <author>
+    <name>mer</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>What a  Happy Day</title>
+    <link href="https://mer.life/posts/2013454d.html"/>
+    <id>https://mer.life/posts/2013454d.html</id>
+    <published>2025-05-19T16:00:00.000Z</published>
+    <updated>2025-05-19T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>hello, pig</p>]]></content>
+    
+    
+    <summary type="html">🥧happy</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
