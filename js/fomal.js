@@ -1113,20 +1113,20 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("05/20/2025 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("06/21/2025 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到 Mer🥝の小家!`,
+    `欢迎来到 Andrew🥝の小家!`,
     `Future is now 🍭🍭🍭`,
     `                                      
 `,
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2025 By Mer",
+    "©2025 By Andrew",
   ];
 
   setTimeout(
@@ -3167,10 +3167,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(/assets/zme.jpg);
-    --darkmode-bg: url(/assets/zme.jpg);
-    --mobileday-bg: url(/assets/zme.jpg);
-    --mobilenight-bg: url(/assets/zme.jpg);
+    --default-bg: url(/assets/background.jpg);
+    --darkmode-bg: url(/assets/background.jpg);
+    --mobileday-bg: url(/assets/background.jpg);
+    --mobilenight-bg: url(/assets/background.jpg);
   }`;
 }
 // 切换背景主函数
