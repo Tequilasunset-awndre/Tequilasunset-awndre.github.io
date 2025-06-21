@@ -47,24 +47,6 @@
   </url>
   
   <url>
-    <loc>https://guozhiying.com/life/movies/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://guozhiying.com/life/music/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://guozhiying.com/categories/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -74,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://guozhiying.com/site/census/index.html</loc>
+    <loc>https://guozhiying.com/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -92,7 +74,25 @@
   </url>
   
   <url>
+    <loc>https://guozhiying.com/life/music/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://guozhiying.com/personal/love/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://guozhiying.com/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
