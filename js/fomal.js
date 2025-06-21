@@ -1215,21 +1215,21 @@ function switchNightMode() {
     // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)
     document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')
     // 延时弹窗提醒
-    setTimeout(() => {
-      new Vue({
-        data: function () {
-          this.$notify({
-            title: "关灯啦🌙",
-            message: "当前已成功切换至夜间模式！",
-            position: 'top-left',
-            offset: 50,
-            showClose: true,
-            type: "success",
-            duration: 5000
-          });
-        }
-      })
-    }, 2000)
+    // setTimeout(() => {
+    //   new Vue({
+    //     data: function () {
+    //       this.$notify({
+    //         title: "关灯啦🌙",
+    //         message: "当前已成功切换至夜间模式！",
+    //         position: 'top-left',
+    //         offset: 50,
+    //         showClose: true,
+    //         type: "success",
+    //         duration: 5000
+    //       });
+    //     }
+    //   })
+    // }, 2000)
   } else {
     // 先设置太阳月亮透明度
     document.getElementById("sun").style.opacity = "0";
@@ -1242,21 +1242,21 @@ function switchNightMode() {
     activateLightMode()
     saveToLocal.set('theme', 'light', 2)
     document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')
-    setTimeout(() => {
-      new Vue({
-        data: function () {
-          this.$notify({
-            title: "开灯啦🌞",
-            message: "当前已成功切换至白天模式！",
-            position: 'top-left',
-            offset: 50,
-            showClose: true,
-            type: "success",
-            duration: 5000
-          });
-        }
-      })
-    }, 2000)
+    // setTimeout(() => {
+    //   new Vue({
+    //     data: function () {
+    //       this.$notify({
+    //         title: "开灯啦🌞",
+    //         message: "当前已成功切换至白天模式！",
+    //         position: 'top-left',
+    //         offset: 50,
+    //         showClose: true,
+    //         type: "success",
+    //         duration: 5000
+    //       });
+    //     }
+    //   })
+    // }, 2000)
   }
   // handle some cases
   typeof utterancesTheme === 'function' && utterancesTheme()
@@ -2782,7 +2782,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("05/20/2025 00:00:00");
+  var grt = new Date("06/21/2025 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
